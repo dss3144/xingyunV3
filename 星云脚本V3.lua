@@ -110,7 +110,7 @@ end
 Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "成功进入"; Text ="星云脚本"; Duration = 4; })
-local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/V0zJpFDz"))()
 local Window = OrionLib:MakeWindow({Name = "星云脚本", HidePremium = false, SaveConfig = true,IntroText = "星云脚本", ConfigFolder = "星云脚本"})
 
 local about = Window:MakeTab({
